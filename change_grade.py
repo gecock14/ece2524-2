@@ -15,11 +15,10 @@ def changeStudentGrade(studentName, studentGrade ):
 
 
 if __name__=="__main__":
-    from sys import stderr,stdout,argv,exit	
-    
+	from sys import stderr,stdout,argv,exit	
 	if len(argv) != 3:
 		stderr.write("Usage: change_grade.py STRING  NUMBER\n")
 		exit(1)
 
-	changeGrade(argv[1], argv[2])
+	changeStudentGrade(argv[1], argv[2])
 

@@ -1,0 +1,5 @@
+The code seems to work fine and I though your use of comments was helpful in 
+understanding the code. Also the use of modularity by making the change grade a function
+was great,however I think you defined it as changeStudentGrade() and called it as
+just changeGrade(), so that could cause problems. Finally, I think a description of how
+the input file containing the grades should be formatted would be helpful.
